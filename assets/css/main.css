@@ -33,6 +33,11 @@ body {
 	line-height: 1;
 }
 
+@font-face {
+	font-family: 'Wishingly';
+	src: url('/fonts/Wishingly.otf')
+	}
+
 ol, ul {
 	list-style: none;
 }
@@ -1325,7 +1330,7 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Wishingly';
 		font-weight: 300;
 		color: #777777;
 		font-size: 20pt;
@@ -2143,15 +2148,15 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		color: rgba(255, 255, 255, 0.45);
+		color: #ffc5b7;
 		text-align: center;
 		padding: 2em 0 0 0;
 		font-size: 0.75em;
 	}
 
 		#footer a {
-			color: #ddd;
-			color: rgba(255, 255, 255, 0.65);
+			color: #dabcaf;
+			color: #dabcaf;
 			-moz-transition: color .25s ease-in-out;
 			-webkit-transition: color .25s ease-in-out;
 			-ms-transition: color .25s ease-in-out;
@@ -2159,7 +2164,7 @@ input, select, textarea {
 		}
 
 			#footer a:hover {
-				color: white;
+				color: #feebe5;
 			}
 
 		#footer .copyright {
